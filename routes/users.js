@@ -5,7 +5,7 @@ const findById = require("../controllers/users/getOneUser");
 const postNewUser = require("../controllers/users/postNewUser");
 const updateUser = require("../controllers/users/updateUser");
 const verifyToken = require("../utils/verifyToken");
-const updateUserPassword = require("../controllers/users/updateUserPAssword");
+const updateUserPassword = require("../controllers/users/updateUserPassword");
 const router = express.Router();
 
 router.get("/checkIfauth", verifyToken);
